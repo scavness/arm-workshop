@@ -9,15 +9,15 @@
             }
         },
         "accountType": {
-           "type": "string",
-           "defaultValue": "Standard_LRS",
-           "allowedValues": [
-               "Standard_LRS",
-               "Premium_LRS",
-               "Standard_RAGRS"
-           ],
-           "metadata": {
-                "description": "SKY for the storage account"
+            "type": "string",
+            "defaultValue": "Standard_LRS",
+            "allowedValues": [
+                "Standard_LRS",
+                "Premium_LRS",
+                "Standard_RAGRS"
+            ],
+            "metadata": {
+                "description": "SKU for the storage account"
             }
         }
     },
